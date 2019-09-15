@@ -7,7 +7,4 @@ public class D {
      public void MD2(){
         System.out.println("MD2");
     }
-     public void MD3(){
-         System.out.println("MD3");
-     }
 }
