@@ -1,29 +1,31 @@
 package projeto;
 public class A {
-    int A1;
-    float A2; 
+    int B1;
+    float B2;    
 
-    public int getA1() {
-        System.out.println("getA1");
-        return A1;
+    public int getB1() {
+        System.out.println("getB1");
+        return B1;
     }
 
-    public void setA1(int A1) {
-        System.out.println("setA1");
-        this.A1 = A1;
+    public void setB1(int B1) {
+        System.out.println("setB1");
+        this.B1 = B1;
     }
 
-    public float getA2() {
-        System.out.println("getA2");
-        return A2;
+    public float getB2() {
+        System.out.println("getB2");
+        return B2;
     }
 
-    public void setA2(float A2) {
-        System.out.println("setA2");
-        this.A2 = A2;
+    public void setB2(float B2) {
+        System.out.println("setB2");
+        this.B2 = B2;
     }
-    public void MA1(){
-        System.out.println("MA1");
+    public void MB1(){
+        System.out.println("MB1");
+    }
+    public void MB2(){
+        System.out.println("MB2");
     }
 }
-
