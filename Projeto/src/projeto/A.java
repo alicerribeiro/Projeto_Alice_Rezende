@@ -1,21 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package projeto;
-
-/**
- *
- * @author Usuario
- */
 public class A {
+    int A1;
+    float A2; 
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public int getA1() {
+        System.out.println("getA1");
+        return A1;
     }
-    
+
+    public void setA1(int A1) {
+        System.out.println("setA1");
+        this.A1 = A1;
+    }
+
+    public float getA2() {
+        System.out.println("getA2");
+        return A2;
+    }
+
+    public void setA2(float A2) {
+        System.out.println("setA2");
+        this.A2 = A2;
+    }
+    public void MA1(){
+        System.out.println("MA1");
+    }
 }
+
